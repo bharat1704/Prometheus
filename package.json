@@ -1,0 +1,21 @@
+{
+  "name": "prom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7",
+    "prom-client": "^15.1.3"
+  }
+}
