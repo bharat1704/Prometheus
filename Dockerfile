@@ -7,10 +7,10 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 RUN npm install
-RUN npm install typescript
 
 # Bundle app source
 COPY . .
 
-EXPOSE 3000
+EXPOSE 4000  
+
 CMD [ "npm", "run", "start" ]
